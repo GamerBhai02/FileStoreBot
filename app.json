@@ -3,10 +3,12 @@
   "description": "file sharing bot store posts and it can access by special links",
   "keywords": [
     "telegram",
-    "file",
-    "sharing"
+    "filestore",
+    "files",
+    "sharing",
+    "tg"
   ],
-  "repository": "https://github.com/TitanXBots/FileStore-Bot",
+  "repository": "https://github.com/GamerBhai02/FileStoreBot",
   "logo": "https://envs.sh/pNw.jpg",
   "env": {
     "TG_BOT_TOKEN": {
@@ -15,7 +17,7 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "5356695781"
+      "value": "1101724431"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
@@ -27,7 +29,7 @@
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "Titanxbot"
+      "value": "Cluster0"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
@@ -63,7 +65,7 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "value": "1101724431",
       "required": false
     },
     "PROTECT_CONTENT": {
@@ -73,7 +75,7 @@
     },
     "FILE_AUTO_DELETE": {
         "description": "auto delete in seconds",
-        "value": "60",
+        "value": "600",
         "required": false
     }
   },
